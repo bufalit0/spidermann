@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding-top: 600px;
+    text-align: center;
+    background-color:darkcyan;
+}
+#foto{
+    border-radius: 50%;
+    width: 400px; 
+    height: 300px;
+}
+#uno{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgba(165, 4, 4, 0.877) 0%,rgb(9, 102, 189) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font: size 50px;
+    font-family: 'Blaka Hollow', cursive;
+    color: azure;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Blaka Hollow', cursive;
+}
+#biografia{
+    padding: 100px;
+    font-family: 'Babylonica', cursive;
+    font-size: 35px;
+}
+.menu{
+    position:fixed;
+    top:0px;
+    z-index: 10;
+    background:blue;
+    margin-top: 0px;
+    width:100% ;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-size: 35px;
+    font-family: 'Blaka Hollow', cursive;
+    color: black;
+}
+.links:hover{
+  font-size: 45px;
+  text-decoration:underline ;  
+}
+a{
+    font-size: 30px;
+}
